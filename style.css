@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+  }
+  
+canvas {
+    border: 1px solid grey;
+    text-align: center;
+  }
+
+span, h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
