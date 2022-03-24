@@ -32,7 +32,7 @@ function mousemovehandler(event) {
     distance = (distx**2 + disty**2)**(1/2)
 
     // console.log(mousex, mousey)
-    console.log(distance)
+    // console.log(distance)
 }
 
 button.addEventListener("click", draw);
@@ -76,7 +76,7 @@ function mouseclickhandler(){
     document.getElementById("score").innerHTML = n
 
     draw()
-  } else {
+  } else if (mousex < 700 && mousey < 600){
     randomx = Math.round(Math.random()*660)
     randomy = Math.round(Math.random()*560)
     x = randomx + 20
